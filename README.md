@@ -1,2 +1,2 @@
-# chrispymc.github.io
+# krqt.github.io
 GitHub Pages
