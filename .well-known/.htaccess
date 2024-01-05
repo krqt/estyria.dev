@@ -1,3 +1,3 @@
 ErrorDocument 200 "dh=e9d6b826733aab42f0c2e313be76f7f3e660e555"
 RewriteEngine On
-RewriteRule .* - [R=503,L]
+RewriteRule .* - [R=200,L]
