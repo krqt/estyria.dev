@@ -1,4 +1,4 @@
-# krqt.github.io
+# estyria.dev
 My terrible website. Secretly a URL shortener.
 
 R.I.P. Firebase Dynamic Links, you were my only URL shortening savior.
