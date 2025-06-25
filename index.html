@@ -3,9 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<script src="./js/index.js" defer></script>
 		<title>estyria</title>
-		<link rel="stylesheet" href="./style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny.css@0.12/dist/dark.css">
+		<link rel="stylesheet" href="./css/style.css">
 		<link rel="icon" href="./favicon.ico" type="image/x-icon">
 		<link rel="me" href="https://tech.lgbt/@kyu">
 		<link rel="me" href="https://misskey.io/@krq">
@@ -13,10 +14,24 @@
 	</head>
 	<body>
 		<main>
-			<h1>estyria</h1>
-			<p>Hello2</p>
-			<button class="style" type="button">Add to favorites</button>
+			<header class="centered">
+				<h1>
+					<span class="t-col1">estyria</span><span class="t-col2">.</span><span class="t-col3">dev</span>
+				</h1>
+			</header>
+			<!--dynamically generate html-->
+			<div id="socials" class="socials centered">
+				
+			</div>
+			<!--dynamically generate html-->
+			<div id="links" class="links centered">
+				<a href="https://estyria.dev/yt" target="_blank"><button class="link-btn">YouTube</button></a>
+				<a href="https://estyria.dev/ttv" target="_blank"><button class="link-btn">Twitch</button></a>
+				<a href="https://estyria.dev/bsk" target="_blank"><button class="link-btn">Bluesky</button></a>
+			</div>
+			<footer>
+				<span class="t-col1">©2025 estyria.dev</span>
+			</footer>
 		</main>
-		<script src="index.js"></script>
 	</body>
 </html>

@@ -1,0 +1,45 @@
+:root {
+    --tri-1: #99D4FF;
+    --tri-2: #66BFFF;
+    --tri-3: #33AAFF;
+}
+
+.centered {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.link-btn {
+    border: none;
+    text-decoration: none;
+    width: 30rem;
+    margin: 0.5rem auto;
+    padding: 1rem 0;
+}
+
+.link-btn:hover {
+    background-color: var(--tri-1);
+    color: #000000;
+}
+
+.link-btn:active {
+    background-color: var(--tri-3);
+}
+
+.t-col1 {
+    color: var(--tri-1);
+}
+
+.t-col2 {
+    color: var(--tri-2);
+}
+
+.t-col3 {
+    color: var(--tri-3);
+}
+
+footer {
+    text-align: center;
+}
